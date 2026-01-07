@@ -79,6 +79,8 @@
             overflow: hidden;
             box-shadow: 0 4px 12px rgba(0,0,0,0.1);
             margin-bottom: 30px;
+           webkit-overflow-scrolling: touch; 
+    border: 1px solid #ccc;
         }
 
         .pdf-container iframe {
@@ -137,4 +139,5 @@
                 font-size: 1.1rem;
             }
         }
+
         
